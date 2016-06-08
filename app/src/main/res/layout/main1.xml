@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/chem1">
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Description"
+        android:onClick="onClick" />
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Components"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/buttonUrl"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Demo"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="What Happens?"
+        android:onClick="onClick" />
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="393dp"
+        android:layout_height="67dp"
+        android:text="Back"
+        android:onClick="onClick"
+        android:layout_gravity="right" />
+
+</LinearLayout>

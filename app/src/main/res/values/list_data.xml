@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adobe_products">
+        <item>Making  Sodium Acetate</item>
+        <item>Making  water rise</item>
+        <item>Hydrogen Peroxide Mixed with Potassium iodide</item>
+        <item>Making an invisible ink</item>
+    </string-array>
+</resources>

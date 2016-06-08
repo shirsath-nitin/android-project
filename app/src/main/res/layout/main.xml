@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/chem1">
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="onClick" />
+    <ImageView
+        android:id="@+id/idImageViewPic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="100"
+        android:adjustViewBounds="true"
+        android:background="#66FFFFFF"
+        android:maxHeight="91dip"
+        android:maxWidth="47dip"
+        android:padding="10dip"
+        android:src="@drawable/step1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bGeri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="prev" >
+        </Button>
+
+        <Button
+            android:id="@+id/bIleri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="next" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
